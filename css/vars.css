@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: #fff;
+  --sub-bg-color: #000;
+  --main-text-color: #000;
+  --sub-text-color: #fff;
+  --inactive: #818181;
+  --success: #bee3be;
+  --link-color: blue;
+  --accent-color: #ff0000;
+
+
+  --first-brand-color: #7c4dff;
+  --second-brand-color: #0091ea;
+  --third-brand-color: #ff9100;
+  --fourth-brand-color: #ff1744;
+  --fifth-brand-color: rgb(236, 236, 236);
+
+  --main-font:  'Poppins';
+  --title-font:  'Poppins SemiBold';
+  --main-title-font: 'Righteous';
+
+  font-size: 62.5%;
+}
