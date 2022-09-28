@@ -16,7 +16,18 @@ let websiteAddress = document.querySelectorAll('.js_website-address');
 let websiteReturnAddress = document.querySelectorAll('.js_website-return-address');
 let websiteDescriptor = document.querySelectorAll('.js_website-desc');
 
-
+const mainPageTitles = document.querySelectorAll('.js_main-title');
+const mainPageSubTitle = document.querySelector('.js_sub-title');
+const MAIN_TAGLINE = 'shop now';
+const SECONDARY_TAGLINE = '';
+if(mainPageTitles.length !== 0) {
+    for(const mainPageTitle of mainPageTitles) {
+        mainPageTitle.textContent = MAIN_TAGLINE;
+    }
+}
+if(mainPageSubTitle) {
+    mainPageSubTitle.textContent = SECONDARY_TAGLINE;
+}
 
 
 websiteName = [...websiteName];
